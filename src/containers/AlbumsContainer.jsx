@@ -27,11 +27,11 @@ class AlbumsContainer extends Component {
     }
   }
 
-  // componentDidMount() {
-  //   this.setState({
-  //     albumsOnSearch: this.filterAlbums()
-  //   });
-  // }
+  componentDidMount() {
+    this.setState({
+      albumsOnSearch: this.filterAlbums()
+    });
+  }
 
   handleSearchBarChange = value => {
     this.setState({ value });
