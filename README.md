@@ -1,5 +1,7 @@
 # Music Library
 
+Link: https://albums.educastrillon.xyz
+
 For this exercise, I had to work with some data of music albums, given in a data file, and filter through it to show the user the albums corresponding to the genre they select. The user should be able to search for an album by name as well. I was given a few hours to work on it.
 
 With this exercise, I practiced passing information between components, routing and learned about life cycle methods. I decided to start learning about writing tests as well.
