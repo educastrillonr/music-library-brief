@@ -13,7 +13,6 @@ const mockData = {
 
 describe("AlbumTile Tests", () => {
   let component;
-  // beforeEach() provides setup to run prior to every test
 
   beforeEach(() => {
     component = mount(<AlbumTile album={mockData} />);
@@ -26,9 +25,6 @@ describe("AlbumTile Tests", () => {
   it("should receive data passed as props from parent", () => {
     expect(component.props().album).toEqual(mockData);
   });
-  //   it("should render data passed in as props", () => {
-  //     expect(component.find(mockData.image)).toBeTruthy();
-  //   });
 
   it("should toggle isClicked state through handleClick method", () => {
     expect(component.state("isClicked")).toEqual(false);
